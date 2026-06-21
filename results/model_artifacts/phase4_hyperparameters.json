@@ -1,0 +1,17 @@
+{
+    "model_name": "LinearSVC + TF-IDF (Optimized)",
+    "optimization_metric": "F1-Score (Spam)",
+    "best_cv_score": 0.9297747865238785,
+    "vectorizer_params": {
+        "max_features": 5000,
+        "ngram_range": [
+            1,
+            1
+        ],
+        "min_df": 1
+    },
+    "classifier_params": {
+        "C": 20.0,
+        "class_weight": "balanced"
+    }
+}
